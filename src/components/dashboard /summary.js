@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { Icons } from "../../svg";
 import { useSearchParams } from "react-router-dom";
 import '../../css/dashboard/summary.css'
+import rain from '../../svg/rain_light_color.png'; // Tell webpack this JS file uses this image
+
 
 const Summary = (props) => {
   var time = new Date();
@@ -139,7 +141,7 @@ const Summary = (props) => {
         </div>
         <div className="wind-rain">
           <div className="rain-chance">
-            <Icons.RainChance />
+            <img src={rain}  alt='rainChance' />
             <p>
               {typeof props.futureData.data === "undefined"
                 ? ""

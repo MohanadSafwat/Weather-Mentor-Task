@@ -72,6 +72,10 @@
     width: 2vw;
     height: 3vh;
   }
+  .dashboard-wrap .summary .left .wind-rain img {
+    width: 2vw;
+    height: 3vh;
+  }
   .dashboard-wrap .summary .left .wind-rain p {
     font-size: 1.2vw;
   }
@@ -202,6 +206,10 @@
   width: 5vw;
   height: 5vh;
 }
+.dashboard-wrap .summary .left .wind-rain img {
+  width: 5vw;
+  height: 5vh;
+}
 
 .dashboard-wrap .summary .left .wind-rain p {
   font-size: 2.5vw;
@@ -288,6 +296,9 @@
 
 
 .dashboard-wrap .summary .left .wind-rain svg {
+  width: 8vw;
+  height: 8vh;
+}.dashboard-wrap .summary .left .wind-rain img {
   width: 8vw;
   height: 8vh;
 }
