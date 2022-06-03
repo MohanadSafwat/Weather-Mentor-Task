@@ -1,0 +1,190 @@
+.dashboard-wrap {
+  background-color: #f7fbfc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-wrap .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.dashboard-wrap .right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2vh 3vw;
+}
+.dashboard-wrap .right-container .sub-info {
+  background-color: rgba(217, 217, 217, 0.13);
+  width: 22vw;
+  height: 15vh;
+  border-radius: 15px;
+  margin-bottom: 2vh;
+  padding: 2vh 2vw;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  justify-content: space-between;
+}
+.dashboard-wrap .right-container .sub-info svg {
+  width: 10vw;
+  height: 10vh;
+}
+
+.dashboard-wrap .right-container .sub-info .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dashboard-wrap .right-container .sub-info .left h1 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin-bottom: 2vh;
+  color: #495464;
+}
+.dashboard-wrap .right-container .sub-info .left p {
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-bottom: 2vh;
+  color: #495464;
+}
+
+.dashboard-wrap .right-container .sub-info .left h3 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #495464;
+}
+.dashboard-wrap .right-container .sub-info .right svg {
+  width: 10vw;
+  height: 15vh;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  
+  .dashboard-wrap .right-container {
+    margin: 2vh 1vw;
+  }
+
+  .dashboard-wrap .right-container .sub-info {
+    width: 25vw;
+   
+  
+  }
+  
+  .dashboard-wrap .right-container .sub-info  .right{
+    width: 18vw;
+   
+  
+  }
+  .dashboard-wrap .right-container .sub-info .right svg {
+    width: 18vw;
+   
+  
+  }
+
+}
+
+
+@media only screen and (max-width: 850px) {
+  .dashboard-wrap {
+    padding: 3vh 5vw;
+    width: 90vw;
+    flex-direction: column;
+    height: auto;
+  }
+
+.dashboard-wrap .right-container {
+
+  margin: 5vh 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dashboard-wrap .right-container .sub-info {
+  width: 35vw;
+  margin: 0  2.5vw 2vh 0;
+  padding: 3vh 3vw;
+
+}
+.dashboard-wrap .right-container .sub-info svg {
+  width: 10vw;
+  height: 10vh;
+}
+
+
+
+.dashboard-wrap .right-container .sub-info .left h1 {
+  font-size: 2vw;
+
+}
+.dashboard-wrap .right-container .sub-info .left p {
+  font-size: 1.8vw;
+
+}
+
+.dashboard-wrap .right-container .sub-info .left h3 {
+  font-size: 2vw;
+ 
+}
+.dashboard-wrap .right-container .sub-info .right svg {
+  width: 20vw;
+  height: 15vh;
+}
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+
+
+.dashboard-wrap .right-container {
+
+  margin: 5vh 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.dashboard-wrap .right-container .sub-info {
+  width: 79vw;
+  margin: 0  2.5vw 2vh 0;
+  padding: 3vh 6vw;
+
+}
+.dashboard-wrap .right-container .sub-info svg {
+  width: 10vw;
+  height: 10vh;
+}
+
+
+
+.dashboard-wrap .right-container .sub-info .left h1 {
+  font-size: 5vw;
+
+}
+.dashboard-wrap .right-container .sub-info .left p {
+  font-size: 4vw;
+
+}
+
+.dashboard-wrap .right-container .sub-info .left h3 {
+  font-size: 5vw;
+ 
+}
+.dashboard-wrap .right-container .sub-info .right  {
+  width: 30vw;
+}
+.dashboard-wrap .right-container .sub-info .right svg {
+  width: 40vw;
+  height: 15vh;
+}
+
+
+
+}
